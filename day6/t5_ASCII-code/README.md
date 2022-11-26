@@ -10,4 +10,5 @@
 - Alert ASCII Code of any key pressed 
 - Detect whether it is alt key or ctrl key or shift key
 
-![](./ASCII.mp4)
+https://user-images.githubusercontent.com/61587804/204105127-077f5b30-aa42-4e1e-8ad1-bde361f486ab.mp4
+
