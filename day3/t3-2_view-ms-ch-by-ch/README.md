@@ -5,4 +5,5 @@
 ## Go live
 - *home.html* in the pages folder
 
-![](./ch-by-ch.mp4)
+https://user-images.githubusercontent.com/61587804/204105426-8fd85c6c-a31a-4f4f-8b55-d87f2805d472.mp4
+
