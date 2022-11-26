@@ -9,4 +9,5 @@
 ### In this project:
 - We make cookies of the site
 
-![](./cookie.mp4)
+https://user-images.githubusercontent.com/61587804/204105242-22550268-a202-4d02-a074-013d8f54413d.mp4
+
