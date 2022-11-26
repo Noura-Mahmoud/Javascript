@@ -12,4 +12,5 @@ let's check
 
 Note: there are sounds in the game
 
-![](./memory-game.mp4)
+https://user-images.githubusercontent.com/61587804/204105285-ecd0366e-15a4-41a6-94a7-595ebcb71cbc.mp4
+
