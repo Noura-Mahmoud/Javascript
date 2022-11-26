@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>submit form</title>
+	<link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+    <script src="../script/context-menu.js"></script>
+    <!-- <script>
+        loc_name = window.location.href ;
+        console.log(loc_name);  
+    </script> -->
+    
+
+
+</head>
+<body style="background-color:rgb(250, 237, 247);" >
+    <div>
+        <form method="get">
+            <table border = "2" align="center">
+                <tr>
+                    <td><label for="fname">First name</label> </td>
+                    <td><input type="text" id="fname" name="fname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last name</label> </td>
+                    <td><input type="text" id="lname" name="lname"required></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label> </td>
+                    <td><input type="text" id="address" name="address"required></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile</label> </td>
+                    <td><input type="text" id="mobile" name="mobile"required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label> </td>
+                    <td><input type="text" id="email" name="email"required></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password</label> </td>
+                    <td><input type="password" id="pass" name="pass" required></td>
+                    <!-- <td><input type="password" id="pass" name="pass"></td> -->
+                </tr>
+                <tr>
+                    <td><label for="job">Job title</label> </td>
+                    <td><input type="text" id="job" name="job"required></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"> <label for="sex"required><b>Gender</b></label></td>
+                    <td><input type="radio" id="m" name="gen" value="Male"><label for="m">Male</label><br></td>
+                    <tr>
+                        <td><input type="radio" id="f" name="gen" value="Female"><label for="f">Female</label><br></td>
+                    </tr>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center"> 
+                        <!-- <input type="submit" value = "Submit">  -->
+                        <button type="button" id = "submitting" onclick="confirm_submission()">Submit</button> 
+                        <!-- <input type="submit" value = "Submit">  -->
+                    </td>
+                </tr>
+            </table>
+        </form> 
+    </div>
+</body>
+</html>
