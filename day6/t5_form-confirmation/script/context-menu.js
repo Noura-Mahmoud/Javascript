@@ -36,10 +36,10 @@ function confirm_submission()
 
 // To assign event
 const check_form = new Event("edit_form");
+// // To trigger the event Listener
 
-// To trigger the event Listener
 document.addEventListener("edit_form", () => {
-  setTimeout( function(){
+  function fill_data(){
     var fname = document.getElementById("fname");
     var lname = document.getElementById("lname");
     var address = document.getElementById("address");
@@ -54,10 +54,7 @@ document.addEventListener("edit_form", () => {
       alert("You haven't entered any data yet!");
     }
   }
-    , 5000
-  )
-  
 });
 
 // To trigger the Event
-document.dispatchEvent(check_form);
+setTimeout(document.dispatchEvent(check_form),5000);
