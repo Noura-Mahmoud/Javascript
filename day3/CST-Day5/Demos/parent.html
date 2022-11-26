@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Untitled Document</title>
+    <script>
+        var win
+
+        function openChildWin() {
+            win = open("childWin.html", "", "width=200,height=200")
+        }
+
+        function checkWinStatus() {
+            if (win.closed)
+                console.log("window closed")
+            else
+                console.log("window not closed");
+
+        }
+
+        function closeChildWin() {
+            win.close()
+
+        }
+
+        function moveWindow() {
+            win.moveBy(150, 150);
+            win.focus();
+
+        }
+
+        function resizeWindow() {
+            win.resizeBy(150, 150);
+
+        }
+    </script>
+    <script src="timers.js"></script>
+</head>
+
+<body>
+    <h1>Parent Win</h1>
+    <input type="button" value="start" onclick="startTimer()">
+    <input type="button" value="stop" onclick="stopTimer()">
+    <input type="button" value="openWin" onclick="openChildWin()">
+    <input type="button" value="closeWin" onclick="closeChildWin()">
+    <input type="button" value="checkWin" onclick="checkWinStatus()">
+    <input type="button" value="moveWin" onclick="moveWindow()">
+    <input type="button" value="resizingWin" onclick="resizeWindow()">
+
+
+</body></html>

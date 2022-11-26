@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Register_page</title>
+    <script src="../script/cookie.js"></script>
+    <script src="../script/register.js"></script>
+</head>
+<body onload="init()">
+    <div>
+        <br>
+            <label for="name">Enter your name: </label> 
+            <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <br>
+            <label for="age">Enter your age: </label> 
+            <input type="text" id="age" name="age"required>
+        <br>
+        <br>
+        <br>
+            <label for="age">Select your gender: </label> 
+        <br>
+        <br>
+            <input type="radio" id="m" name="gen" value="Male"><label for="m"><img src="../images/1.jpg"></label>
+            <input type="radio" id="f" name="gen" value="Female"><label for="f"><img src="../images/2.jpg"></label><br>
+        <br>
+        <br>
+        <br>
+            <label for="color">Select your favorite color: </label> 
+            <select name="color" id="color">
+                <option value="red" selected>Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                
+            </select> 
+        <br>
+        <br>
+        <br>
+           <button onclick="go_to_welcome_page()">register</button>        
+
+        
+        
+                
+    </div>
+</body>
+</html>
