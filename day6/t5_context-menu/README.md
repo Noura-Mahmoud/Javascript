@@ -10,4 +10,5 @@
 
 context menu: the menu displayed when mouse right button is clicked
 
-![](./context-menu.mp4)
+https://user-images.githubusercontent.com/61587804/204105109-1fa423ac-4155-4029-aa1b-eac582fe3462.mp4
+
