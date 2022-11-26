@@ -5,4 +5,5 @@
 ## Go live
 - *application.html* in the pages folder
 
-![](./application.gif)
+https://user-images.githubusercontent.com/61587804/204105018-fdd3eeae-3d9a-446c-8200-6749ad06f968.mp4
+
