@@ -33,8 +33,6 @@ https://user-images.githubusercontent.com/61587804/204105524-14b285e5-73cd-473c-
 
 ## Day 5
 
-https://user-images.githubusercontent.com/61587804/204105530-6b2450cb-8dd4-482c-81c9-ca145a427add.mp4
-
 
 https://user-images.githubusercontent.com/61587804/204108555-ea3201c7-646a-41f0-a2e8-8c66197ca017.mp4
 
